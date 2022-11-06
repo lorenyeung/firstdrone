@@ -1,6 +1,6 @@
 #Simple Docker File
 
-FROM golangggggggg:1.13
+FROM golang:1.13
 RUN mkdir /app
 ADD . /app
 WORKDIR /app
