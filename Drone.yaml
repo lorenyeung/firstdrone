@@ -8,7 +8,7 @@ name: default
 steps:
 
 - name: build
-  image: golanggg:1.13
+  image: golang:1.13
   commands:
     - "go build -o ./myapp2"
 
