@@ -17,6 +17,8 @@ of the Go Lang class. The Drone.yaml is wired to Drone out-of-box events.
 Make sure in your Drone.yaml to edit the Docker Registry to be yours. The
 example `repo: rlachhman/myrepo` needs to be updated to yours. 
 
+Also check configuration is looking for your drone yaml file in the correct syntax! Settings -> General -> Configuration -> make sure it matches your drone yaml file. 
+
 Below are the commands to install the [Drone Server](https://docs.drone.io/server/overview/) and [Drone Runner](https://docs.drone.io/runner/overview/)
 into Kubernetes. 
 
