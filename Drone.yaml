@@ -15,6 +15,7 @@ steps:
 - name: publish  
   image: plugins/docker
   settings:
+    registry: lorenyeung.jfrog.io/loren-docker
     username:
       from_secret: DOCKER_USERNAME
     password:
