@@ -19,6 +19,6 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    repo: lorenyeung/firstdrone
+    repo: lorenyeung.jfrog.io/loren-docker/firstdrone
     auto_tag: true
     auto_tag_suffix: drone-build
